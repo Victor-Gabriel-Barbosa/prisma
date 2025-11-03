@@ -5,11 +5,11 @@ generator client {
 
 datasource db {
   provider = "sqlite"
-  url      = "file:./app.db"
+  url      = "file:./prisma/app.db"
 }
 
 model Tarefa {
-  id          Int @id @default(autoincrement())
+  id          Int     @id @default(autoincrement())
   nome        String
   completada  Boolean @default(false)
 }

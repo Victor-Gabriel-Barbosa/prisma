@@ -41,7 +41,11 @@
         }
       ],
       [
-        "@prisma/react-native"
+        "@prisma/react-native",
+        {
+          "prismaPath": "./prisma",
+          "generateClient": true
+        }
       ]
     ],
     "experiments": {
