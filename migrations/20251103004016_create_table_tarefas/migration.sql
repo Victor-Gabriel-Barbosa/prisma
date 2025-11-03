@@ -1,0 +1,6 @@
+-- CreateTable
+CREATE TABLE "Tarefa" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "nome" TEXT NOT NULL,
+    "completada" BOOLEAN NOT NULL DEFAULT false
+);
